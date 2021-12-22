@@ -10,7 +10,6 @@ body {
 
   border-top: 10px solid #1098ad;
   position: relative;
-  
 }
 
 /* PAGE SECTION */
@@ -20,7 +19,6 @@ body {
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
-  
 }
 
 .main-header {
@@ -44,7 +42,6 @@ article {
 
 .post-header {
   margin-bottom: 40px;
-  
 }
 
 aside {
@@ -211,7 +208,6 @@ nav a:link {
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
-
 }
 
 nav a:link:last-child {
@@ -232,24 +228,24 @@ button {
 
 h1::first-letter {
   font-style: normal;
-  margin-right:5px;
+  margin-right: 5px;
 }
 
 h3 + p::first-line {
   /* color: red; */
 }
 
-h2{
+h2 {
   /* background-color: orange; */
   position: relative;
 }
 
-h2::after{
+h2::after {
   content: "TOP";
   background-color: #ffe70e;
   color: #444;
   font-size: 16px;
-  font-weight:bold;
+  font-weight: bold;
   display: inline-block;
   padding: 5px 10px;
   position: absolute;
@@ -273,3 +269,25 @@ h2::after{
 footer p {
   color: green !important;
 } */
+
+/* FLOATS */
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  /* padding-left: 80px; */
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
